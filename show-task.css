@@ -1,0 +1,57 @@
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  height: 5rem;
+  width: 100%;
+  background-color: lightpink;
+  padding-right: 2rem;
+}
+
+.co {
+  margin: 0;
+}
+
+.align {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.logo {
+  width: 2rem;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border: 2px solid black;
+  margin: 5rem;
+}
+
+.jisipaUn, .jisipaDeux {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.jisipaDeux {
+  width: 100%;
+  border-top: 1px solid black;
+}

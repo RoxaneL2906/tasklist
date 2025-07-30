@@ -1,0 +1,90 @@
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 2rem;
+  height: 5rem;
+  width: 100%;
+  background-color: lightpink;
+  padding-right: 2rem;
+}
+
+
+.co {
+    margin: 0;
+}
+
+.align {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.2rem;
+}
+
+.logo {
+  width: 2rem;
+}
+
+.conteneur {
+  width: 33.33%;
+  margin: 3rem;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: yellowgreen;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.jisipa {
+  display: flex;
+  flex-direction: column;
+}
+
+.clic {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  width: 10rem;
+}
+
+.remplissage {
+  height: 2rem;
+  width: 30rem;
+}
+
+.direction {
+  display: flex;
+  justify-content: center;
+}
+
+.magie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.magie p {
+  margin: 0;
+}
+
+span {
+  font-style: italic;
+  color: blue;
+}

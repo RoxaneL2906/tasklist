@@ -1,0 +1,66 @@
+body {
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: large;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  height: 5rem;
+  width: 100%;
+  background-color: lightpink;
+}
+
+.conteneur {
+  width: 33.33%;
+  margin: 3rem;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: yellowgreen;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.jisipa {
+  display: flex;
+  flex-direction: column;
+}
+
+.clic {
+  margin-top: 2rem;
+  padding: 0.5rem;
+  width: 10rem;
+}
+
+.remplissage {
+  height: 2rem;
+  width: 30rem;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input:invalid {
+  border: 2px red solid;
+}
+
+.magie {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
