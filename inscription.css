@@ -49,3 +49,10 @@ form {
 input:invalid {
     border: 2px red solid;
 }
+
+.magie {
+  color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

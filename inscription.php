@@ -18,7 +18,7 @@ if (
             header("Location: /index.php");
         }
     } else {
-        echo "Les mots de passe ne correspondent pas.";
+        $afficherErreur = true;
     }
 }
 ?>
@@ -40,6 +40,11 @@ if (
     </header>
     <h1>Création de compte</h1>
     <div class="conteneur">
+        <?php if ($afficherErreur) : ?>
+            <div class="magie">
+                <p>Les mots de passe ne correspondent pas</p>
+            </div>
+        <?php endif; ?>
         <form method="post" action="/inscription.php">
              <div class="jisipa">
                 <label for="nom">Nom d'utilisateur</label>
