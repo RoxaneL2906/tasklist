@@ -52,6 +52,24 @@ function get_user_by_login(string $email, string $password): array | null
         return null;
     }
 }
+//Vérifier si un email existe déjà 
+function verif_mail(string $email): bool
+{
+
+    $database = connect_database();
+
+    $stmt = $database->prepare("SELECT * FROM user WHERE email = ?");
+    $stmt->execute([$email]);
+    $user = $stmt->fetch(PDO::FETCH_ASSOC);
+
+    if ($user == null) {
+        return false;
+    } 
+    else {
+        return true;
+    }
+}
+
 
 // CRUD Task
 // Create
